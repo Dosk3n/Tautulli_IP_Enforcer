@@ -1,0 +1,13 @@
+[Unit]
+Description=Tautulli IP Enforcer Service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=dean
+ExecStart=/bin/bash /home/dean/TautulliBanEnforcer/tautulliIpEnforcer.sh
+
+[Install]
+WantedBy=multi-user.target
