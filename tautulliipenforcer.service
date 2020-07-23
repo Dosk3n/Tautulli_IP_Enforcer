@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=dean
-ExecStart=/bin/bash /home/dean/TautulliBanEnforcer/tautulliIpEnforcer.sh
+ExecStart=/bin/bash /home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh
 
 [Install]
 WantedBy=multi-user.target
