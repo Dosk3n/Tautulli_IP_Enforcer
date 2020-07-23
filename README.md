@@ -33,15 +33,15 @@ You can also change the messages that are displayed to the user for both blackli
 
 #### Edit the bash script (tautulliIpEnforcer.sh):
 
-In this file you need to edit this line: "cd /home/dean/Tautulli_IP_Enforcer && python3 tautulliIpEnforcer.py"
-Specifically you need to edit this part: "/home/dean/Tautulli_IP_Enforcer"
+In this file you need to edit this line: "cd /home/dean/Tautulli_IP_Enforcer && python3 tautulliIpEnforcer.py" <br>
+Specifically you need to edit this part: "/home/dean/Tautulli_IP_Enforcer" <br>
 Change this to the path of where you cloned this repository. It must be the path, not just the folder name.
 
 #### Edit the service file (tautulliipenforcer.service):
 
-In this file you need to edit these lines: 
-    User=dean
-    ExecStart=/bin/bash /home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh
+In this file you need to edit these lines: <br>
+    User=dean <br>
+    ExecStart=/bin/bash /home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh <br>
 
 User needs to be the user that you want the script to run as
 On this line: "ExecStart=/bin/bash /home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh"
