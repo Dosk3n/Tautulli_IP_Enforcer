@@ -44,8 +44,8 @@ In this file you need to edit these lines: <br>
     ExecStart=/bin/bash /home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh <br>
 
 User needs to be the user that you want the script to run as
-On this line: "ExecStart=/bin/bash /home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh"
-Specifically this part: "/home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh"
+On this line: "ExecStart=/bin/bash /home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh" <br>
+Specifically this part: "/home/dean/Tautulli_IP_Enforcer/tautulliIpEnforcer.sh" <br>
 Change this to path (including the file) of the bash script you edited in the previous step.
 
 If you need any more information on servi
