@@ -6,7 +6,9 @@ Tautulli IP Enforcer is a python script / application that I put together to all
 
 ## Requirements
 
-Python3, requests (usually included with python3)
+Python3 / requests (usually included with python3)<br>
+Tautulli (fantastic app that you should be using anyway)
+PlexPass
 
 Note: This application has been written and tested on Ubuntu Linux where Tautull is set up in a Docker container. This should work fine on other versions of Linux and shoudln't matter if Tautulli is in a docker container or not.
 
